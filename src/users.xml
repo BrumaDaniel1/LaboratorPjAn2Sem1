@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.1" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="labjava.User" id="User0">
+    <void class="labjava.User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User0"/>
+      <string>aaa</string>
+     </void>
+    </void>
+    <void class="labjava.User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User0"/>
+      <string>aaa</string>
+     </void>
+    </void>
+    <void class="labjava.User" method="getField">
+     <string>accountType</string>
+     <void method="set">
+      <object idref="User0"/>
+      <object class="java.lang.Enum" id="UserAccountType0" method="valueOf">
+       <class>labjava.UserAccountType</class>
+       <string>STUDENT</string>
+      </object>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="labjava.User" id="User1">
+    <void class="labjava.User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User1"/>
+      <string>bbb</string>
+     </void>
+    </void>
+    <void class="labjava.User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User1"/>
+      <string>aaa</string>
+     </void>
+    </void>
+    <void class="labjava.User" method="getField">
+     <string>accountType</string>
+     <void method="set">
+      <object idref="User1"/>
+      <object idref="UserAccountType0"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="labjava.User" id="User2">
+    <void class="labjava.User" method="getField">
+     <string>userName</string>
+     <void method="set">
+      <object idref="User2"/>
+      <string>ccc</string>
+     </void>
+    </void>
+    <void class="labjava.User" method="getField">
+     <string>password</string>
+     <void method="set">
+      <object idref="User2"/>
+      <string>ccc</string>
+     </void>
+    </void>
+    <void class="labjava.User" method="getField">
+     <string>accountType</string>
+     <void method="set">
+      <object idref="User2"/>
+      <object idref="UserAccountType0"/>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
