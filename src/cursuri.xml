@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.1" class="java.beans.XMLDecoder">
+ <array class="labjava.Curs" length="9">
+  <void index="0">
+   <object class="labjava.Curs" id="Curs0">
+    <void class="labjava.Curs" method="getField">
+     <string>nume</string>
+     <void method="set">
+      <object idref="Curs0"/>
+      <string>Teoria sistemelor</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>descriere</string>
+     <void method="set">
+      <object idref="Curs0"/>
+      <string>descriere curs</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>profu</string>
+     <void method="set">
+      <object idref="Curs0"/>
+      <object class="labjava.Profesor" id="Profesor0">
+       <void class="labjava.Profesor" method="getField">
+        <string>nume</string>
+        <void method="set">
+         <object idref="Profesor0"/>
+         <string>DEMETER</string>
+        </void>
+       </void>
+       <void class="labjava.Profesor" method="getField">
+        <string>prenume</string>
+        <void method="set">
+         <object idref="Profesor0"/>
+         <string>ROBERT</string>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>studenti</string>
+     <void method="set">
+      <object idref="Curs0"/>
+      <object class="java.util.HashSet">
+       <void method="add">
+        <object class="labjava.Student" id="Student0">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student0"/>
+           <string>Milea</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student0"/>
+           <string>Daniel</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student0"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student1">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student1"/>
+           <string>Rotaru</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student1"/>
+           <string>Daria</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student1"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student2">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student2"/>
+           <string>Grigorescu</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student2"/>
+           <string>Stefan</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student2"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student3">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student3"/>
+           <string>Coca</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student3"/>
+           <string>Paul</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student3"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student4">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student4"/>
+           <string>Cristea</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student4"/>
+           <string>Florinela</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student4"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student5">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student5"/>
+           <string>Rusu</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student5"/>
+           <string>Victor</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student5"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student6">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student6"/>
+           <string>Visoiu</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student6"/>
+           <string>Andrei</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student6"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student7">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student7"/>
+           <string>Stanculescu</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student7"/>
+           <string>Daniel</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student7"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student8">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student8"/>
+           <string>Cucu</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student8"/>
+           <string>Ioana</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student8"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student9">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student9"/>
+           <string>Petreanu</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student9"/>
+           <string>Marius</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student9"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student10">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student10"/>
+           <string>Iorga</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student10"/>
+           <string>Bianca</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student10"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student11">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student11"/>
+           <string>Dudulescu</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student11"/>
+           <string>Stefan</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student11"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student12">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student12"/>
+           <string>Suciu</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student12"/>
+           <string>Mihai</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student12"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student13">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student13"/>
+           <string>Visan</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student13"/>
+           <string>Marian</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student13"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student14">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student14"/>
+           <string>Oprea</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student14"/>
+           <string>Ionut</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student14"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student15">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student15"/>
+           <string>Maracineanu</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student15"/>
+           <string>Constantin</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student15"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>nota</string>
+     <void method="set">
+      <object idref="Curs0"/>
+      <object class="java.util.HashMap"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="1">
+   <object class="labjava.Curs" id="Curs1">
+    <void class="labjava.Curs" method="getField">
+     <string>nume</string>
+     <void method="set">
+      <object idref="Curs1"/>
+      <string>Masurari electronice</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>descriere</string>
+     <void method="set">
+      <object idref="Curs1"/>
+      <string>descriere curs</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>profu</string>
+     <void method="set">
+      <object idref="Curs1"/>
+      <object class="labjava.Profesor" id="Profesor1">
+       <void class="labjava.Profesor" method="getField">
+        <string>nume</string>
+        <void method="set">
+         <object idref="Profesor1"/>
+         <string>ALEXANDRU</string>
+        </void>
+       </void>
+       <void class="labjava.Profesor" method="getField">
+        <string>prenume</string>
+        <void method="set">
+         <object idref="Profesor1"/>
+         <string>MARIAN</string>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>studenti</string>
+     <void method="set">
+      <object idref="Curs1"/>
+      <object class="java.util.HashSet">
+       <void method="add">
+        <object idref="Student7"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student16">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student16"/>
+           <string>Bruma</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student16"/>
+           <string>Daniel</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student16"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student17">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student17"/>
+           <string>Pascociu</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student17"/>
+           <string>Andreea</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student17"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student11"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student18">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student18"/>
+           <string>Ionita</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student18"/>
+           <string>Cezar</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student18"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>nota</string>
+     <void method="set">
+      <object idref="Curs1"/>
+      <object class="java.util.HashMap"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="2">
+   <object class="labjava.Curs" id="Curs2">
+    <void class="labjava.Curs" method="getField">
+     <string>nume</string>
+     <void method="set">
+      <object idref="Curs2"/>
+      <string>Dispozitive electronice</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>descriere</string>
+     <void method="set">
+      <object idref="Curs2"/>
+      <string>descriere curs</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>profu</string>
+     <void method="set">
+      <object idref="Curs2"/>
+      <object class="labjava.Profesor" id="Profesor2">
+       <void class="labjava.Profesor" method="getField">
+        <string>nume</string>
+        <void method="set">
+         <object idref="Profesor2"/>
+         <string>ILEA</string>
+        </void>
+       </void>
+       <void class="labjava.Profesor" method="getField">
+        <string>prenume</string>
+        <void method="set">
+         <object idref="Profesor2"/>
+         <string>GELU</string>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>studenti</string>
+     <void method="set">
+      <object idref="Curs2"/>
+      <object class="java.util.HashSet">
+       <void method="add">
+        <object class="labjava.Student" id="Student19">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student19"/>
+           <string>Trifan</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student19"/>
+           <string>Ioan</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student19"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student18"/>
+       </void>
+       <void method="add">
+        <object idref="Student4"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student20">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student20"/>
+           <string>Gribincea</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student20"/>
+           <string>Valentina</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student20"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student7"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student21">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student21"/>
+           <string>Paltanea</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student21"/>
+           <string>Auras</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student21"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student22">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student22"/>
+           <string>Dragomir</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student22"/>
+           <string>Sergiu</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student22"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student23">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student23"/>
+           <string>Silitra</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student23"/>
+           <string>Florin</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student23"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student10"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student24">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student24"/>
+           <string>Andrei</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student24"/>
+           <string>Mihai</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student24"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student16"/>
+       </void>
+       <void method="add">
+        <object idref="Student12"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student25">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student25"/>
+           <string>Vajaiac</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student25"/>
+           <string>Marius</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student25"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>nota</string>
+     <void method="set">
+      <object idref="Curs2"/>
+      <object class="java.util.HashMap"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="3">
+   <object class="labjava.Curs" id="Curs3">
+    <void class="labjava.Curs" method="getField">
+     <string>nume</string>
+     <void method="set">
+      <object idref="Curs3"/>
+      <string>Structuri de date</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>descriere</string>
+     <void method="set">
+      <object idref="Curs3"/>
+      <string>descriere curs</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>profu</string>
+     <void method="set">
+      <object idref="Curs3"/>
+      <object idref="Profesor2"/>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>studenti</string>
+     <void method="set">
+      <object idref="Curs3"/>
+      <object class="java.util.HashSet">
+       <void method="add">
+        <object idref="Student19"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student26">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student26"/>
+           <string>Patrascu</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student26"/>
+           <string>Nicolae</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student26"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student27">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student27"/>
+           <string>Popa</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student27"/>
+           <string>Ana-Maria</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student27"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student2"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student28">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student28"/>
+           <string>Gavrila</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student28"/>
+           <string>Iulian</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student28"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student29">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student29"/>
+           <string>Neagu</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student29"/>
+           <string>Elena</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student29"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student3"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student30">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student30"/>
+           <string>Jarcau</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student30"/>
+           <string>Stefan</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student30"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student4"/>
+       </void>
+       <void method="add">
+        <object idref="Student18"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student31">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student31"/>
+           <string>Raulea</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student31"/>
+           <string>Andrei</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student31"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student20"/>
+       </void>
+       <void method="add">
+        <object idref="Student6"/>
+       </void>
+       <void method="add">
+        <object idref="Student5"/>
+       </void>
+       <void method="add">
+        <object idref="Student7"/>
+       </void>
+       <void method="add">
+        <object idref="Student21"/>
+       </void>
+       <void method="add">
+        <object idref="Student23"/>
+       </void>
+       <void method="add">
+        <object idref="Student8"/>
+       </void>
+       <void method="add">
+        <object idref="Student9"/>
+       </void>
+       <void method="add">
+        <object idref="Student24"/>
+       </void>
+       <void method="add">
+        <object idref="Student11"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student32">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student32"/>
+           <string>Damian</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student32"/>
+           <string>Maria</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student32"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student25"/>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>nota</string>
+     <void method="set">
+      <object idref="Curs3"/>
+      <object class="java.util.HashMap"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="4">
+   <object class="labjava.Curs" id="Curs4">
+    <void class="labjava.Curs" method="getField">
+     <string>nume</string>
+     <void method="set">
+      <object idref="Curs4"/>
+      <string>Procesarea semnalelor</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>descriere</string>
+     <void method="set">
+      <object idref="Curs4"/>
+      <string>descriere curs</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>profu</string>
+     <void method="set">
+      <object idref="Curs4"/>
+      <object class="labjava.Profesor" id="Profesor3">
+       <void class="labjava.Profesor" method="getField">
+        <string>nume</string>
+        <void method="set">
+         <object idref="Profesor3"/>
+         <string>DANILA</string>
+        </void>
+       </void>
+       <void class="labjava.Profesor" method="getField">
+        <string>prenume</string>
+        <void method="set">
+         <object idref="Profesor3"/>
+         <string>ADRIAN</string>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>studenti</string>
+     <void method="set">
+      <object idref="Curs4"/>
+      <object class="java.util.HashSet">
+       <void method="add">
+        <object idref="Student19"/>
+       </void>
+       <void method="add">
+        <object idref="Student26"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student33">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student33"/>
+           <string>Stoian</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student33"/>
+           <string>Emanuel</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student33"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student34">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student34"/>
+           <string>Puia</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student34"/>
+           <string>Madalina</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student34"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student1"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student35">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student35"/>
+           <string>Spunei</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student35"/>
+           <string>Razvan</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student35"/>
+           <int>4</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student36">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student36"/>
+           <string>Solomon</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student36"/>
+           <string>Andrei</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student36"/>
+           <int>1</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student29"/>
+       </void>
+       <void method="add">
+        <object idref="Student30"/>
+       </void>
+       <void method="add">
+        <object idref="Student4"/>
+       </void>
+       <void method="add">
+        <object idref="Student18"/>
+       </void>
+       <void method="add">
+        <object idref="Student20"/>
+       </void>
+       <void method="add">
+        <object idref="Student6"/>
+       </void>
+       <void method="add">
+        <object idref="Student22"/>
+       </void>
+       <void method="add">
+        <object idref="Student23"/>
+       </void>
+       <void method="add">
+        <object idref="Student8"/>
+       </void>
+       <void method="add">
+        <object idref="Student9"/>
+       </void>
+       <void method="add">
+        <object idref="Student10"/>
+       </void>
+       <void method="add">
+        <object idref="Student16"/>
+       </void>
+       <void method="add">
+        <object idref="Student17"/>
+       </void>
+       <void method="add">
+        <object class="labjava.Student" id="Student37">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student37"/>
+           <string>Budau</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student37"/>
+           <string>David</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student37"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student14"/>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>nota</string>
+     <void method="set">
+      <object idref="Curs4"/>
+      <object class="java.util.HashMap"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="5">
+   <object class="labjava.Curs" id="Curs5">
+    <void class="labjava.Curs" method="getField">
+     <string>nume</string>
+     <void method="set">
+      <object idref="Curs5"/>
+      <string>Limba engleza</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>descriere</string>
+     <void method="set">
+      <object idref="Curs5"/>
+      <string>descriere curs</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>profu</string>
+     <void method="set">
+      <object idref="Curs5"/>
+      <object class="labjava.Profesor" id="Profesor4">
+       <void class="labjava.Profesor" method="getField">
+        <string>nume</string>
+        <void method="set">
+         <object idref="Profesor4"/>
+         <string>PANA</string>
+        </void>
+       </void>
+       <void class="labjava.Profesor" method="getField">
+        <string>prenume</string>
+        <void method="set">
+         <object idref="Profesor4"/>
+         <string>GHEORGHE</string>
+        </void>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>studenti</string>
+     <void method="set">
+      <object idref="Curs5"/>
+      <object class="java.util.HashSet">
+       <void method="add">
+        <object idref="Student19"/>
+       </void>
+       <void method="add">
+        <object idref="Student26"/>
+       </void>
+       <void method="add">
+        <object idref="Student33"/>
+       </void>
+       <void method="add">
+        <object idref="Student34"/>
+       </void>
+       <void method="add">
+        <object idref="Student1"/>
+       </void>
+       <void method="add">
+        <object idref="Student2"/>
+       </void>
+       <void method="add">
+        <object idref="Student3"/>
+       </void>
+       <void method="add">
+        <object idref="Student29"/>
+       </void>
+       <void method="add">
+        <object idref="Student30"/>
+       </void>
+       <void method="add">
+        <object idref="Student31"/>
+       </void>
+       <void method="add">
+        <object idref="Student6"/>
+       </void>
+       <void method="add">
+        <object idref="Student21"/>
+       </void>
+       <void method="add">
+        <object idref="Student23"/>
+       </void>
+       <void method="add">
+        <object idref="Student9"/>
+       </void>
+       <void method="add">
+        <object idref="Student10"/>
+       </void>
+       <void method="add">
+        <object idref="Student11"/>
+       </void>
+       <void method="add">
+        <object idref="Student12"/>
+       </void>
+       <void method="add">
+        <object idref="Student13"/>
+       </void>
+       <void method="add">
+        <object idref="Student14"/>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>nota</string>
+     <void method="set">
+      <object idref="Curs5"/>
+      <object class="java.util.HashMap"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="6">
+   <object class="labjava.Curs" id="Curs6">
+    <void class="labjava.Curs" method="getField">
+     <string>nume</string>
+     <void method="set">
+      <object idref="Curs6"/>
+      <string>Limbaje formale</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>descriere</string>
+     <void method="set">
+      <object idref="Curs6"/>
+      <string>descriere curs</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>profu</string>
+     <void method="set">
+      <object idref="Curs6"/>
+      <object idref="Profesor0"/>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>studenti</string>
+     <void method="set">
+      <object idref="Curs6"/>
+      <object class="java.util.HashSet">
+       <void method="add">
+        <object idref="Student26"/>
+       </void>
+       <void method="add">
+        <object idref="Student27"/>
+       </void>
+       <void method="add">
+        <object idref="Student33"/>
+       </void>
+       <void method="add">
+        <object idref="Student34"/>
+       </void>
+       <void method="add">
+        <object idref="Student35"/>
+       </void>
+       <void method="add">
+        <object idref="Student2"/>
+       </void>
+       <void method="add">
+        <object idref="Student28"/>
+       </void>
+       <void method="add">
+        <object idref="Student36"/>
+       </void>
+       <void method="add">
+        <object idref="Student29"/>
+       </void>
+       <void method="add">
+        <object idref="Student30"/>
+       </void>
+       <void method="add">
+        <object idref="Student4"/>
+       </void>
+       <void method="add">
+        <object idref="Student5"/>
+       </void>
+       <void method="add">
+        <object idref="Student7"/>
+       </void>
+       <void method="add">
+        <object idref="Student23"/>
+       </void>
+       <void method="add">
+        <object idref="Student8"/>
+       </void>
+       <void method="add">
+        <object idref="Student24"/>
+       </void>
+       <void method="add">
+        <object idref="Student16"/>
+       </void>
+       <void method="add">
+        <object idref="Student17"/>
+       </void>
+       <void method="add">
+        <object idref="Student13"/>
+       </void>
+       <void method="add">
+        <object idref="Student25"/>
+       </void>
+       <void method="add">
+        <object idref="Student15"/>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>nota</string>
+     <void method="set">
+      <object idref="Curs6"/>
+      <object class="java.util.HashMap"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="7">
+   <object class="labjava.Curs" id="Curs7">
+    <void class="labjava.Curs" method="getField">
+     <string>nume</string>
+     <void method="set">
+      <object idref="Curs7"/>
+      <string>PCLP 1</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>descriere</string>
+     <void method="set">
+      <object idref="Curs7"/>
+      <string>descriere curs</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>profu</string>
+     <void method="set">
+      <object idref="Curs7"/>
+      <object idref="Profesor1"/>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>studenti</string>
+     <void method="set">
+      <object idref="Curs7"/>
+      <object class="java.util.HashSet">
+       <void method="add">
+        <object class="labjava.Student" id="Student38">
+         <void class="labjava.Student" method="getField">
+          <string>nume</string>
+          <void method="set">
+           <object idref="Student38"/>
+           <string>Istudor</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>prenume</string>
+          <void method="set">
+           <object idref="Student38"/>
+           <string>Cristian</string>
+          </void>
+         </void>
+         <void class="labjava.Student" method="getField">
+          <string>grupa</string>
+          <void method="set">
+           <object idref="Student38"/>
+           <int>3</int>
+          </void>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object idref="Student26"/>
+       </void>
+       <void method="add">
+        <object idref="Student34"/>
+       </void>
+       <void method="add">
+        <object idref="Student2"/>
+       </void>
+       <void method="add">
+        <object idref="Student29"/>
+       </void>
+       <void method="add">
+        <object idref="Student4"/>
+       </void>
+       <void method="add">
+        <object idref="Student31"/>
+       </void>
+       <void method="add">
+        <object idref="Student20"/>
+       </void>
+       <void method="add">
+        <object idref="Student6"/>
+       </void>
+       <void method="add">
+        <object idref="Student21"/>
+       </void>
+       <void method="add">
+        <object idref="Student8"/>
+       </void>
+       <void method="add">
+        <object idref="Student9"/>
+       </void>
+       <void method="add">
+        <object idref="Student24"/>
+       </void>
+       <void method="add">
+        <object idref="Student16"/>
+       </void>
+       <void method="add">
+        <object idref="Student17"/>
+       </void>
+       <void method="add">
+        <object idref="Student11"/>
+       </void>
+       <void method="add">
+        <object idref="Student12"/>
+       </void>
+       <void method="add">
+        <object idref="Student14"/>
+       </void>
+       <void method="add">
+        <object idref="Student25"/>
+       </void>
+       <void method="add">
+        <object idref="Student15"/>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>nota</string>
+     <void method="set">
+      <object idref="Curs7"/>
+      <object class="java.util.HashMap"/>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void index="8">
+   <object class="labjava.Curs" id="Curs8">
+    <void class="labjava.Curs" method="getField">
+     <string>nume</string>
+     <void method="set">
+      <object idref="Curs8"/>
+      <string>PCLP 2</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>descriere</string>
+     <void method="set">
+      <object idref="Curs8"/>
+      <string>descriere curs</string>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>profu</string>
+     <void method="set">
+      <object idref="Curs8"/>
+      <object idref="Profesor3"/>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>studenti</string>
+     <void method="set">
+      <object idref="Curs8"/>
+      <object class="java.util.HashSet">
+       <void method="add">
+        <object idref="Student19"/>
+       </void>
+       <void method="add">
+        <object idref="Student38"/>
+       </void>
+       <void method="add">
+        <object idref="Student27"/>
+       </void>
+       <void method="add">
+        <object idref="Student3"/>
+       </void>
+       <void method="add">
+        <object idref="Student30"/>
+       </void>
+       <void method="add">
+        <object idref="Student18"/>
+       </void>
+       <void method="add">
+        <object idref="Student6"/>
+       </void>
+       <void method="add">
+        <object idref="Student21"/>
+       </void>
+       <void method="add">
+        <object idref="Student23"/>
+       </void>
+       <void method="add">
+        <object idref="Student8"/>
+       </void>
+       <void method="add">
+        <object idref="Student9"/>
+       </void>
+       <void method="add">
+        <object idref="Student12"/>
+       </void>
+       <void method="add">
+        <object idref="Student37"/>
+       </void>
+       <void method="add">
+        <object idref="Student14"/>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void class="labjava.Curs" method="getField">
+     <string>nota</string>
+     <void method="set">
+      <object idref="Curs8"/>
+      <object class="java.util.HashMap"/>
+     </void>
+    </void>
+   </object>
+  </void>
+ </array>
+</java>
