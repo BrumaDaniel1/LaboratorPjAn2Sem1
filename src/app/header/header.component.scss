@@ -1,0 +1,28 @@
+.navbar{
+    background-color: #272635; 
+ 
+ 
+ }
+ 
+ .navbar_container{
+     display: flex;
+     justify-content: space-between;
+     height: 80px;
+     font-size: large;
+     text-align: center;
+     align-items: center;
+ }
+ 
+ .next_style{
+     font-size: 2em;
+     background-size: 100%;
+     background: linear-gradient(to top, #f20404,#E8E9F3);
+     -webkit-background-clip: text;
+     -moz-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -moz-text-fill-color: transparent;
+ }
+ 
+ .navbar_list{
+     font-size: small;
+ }
