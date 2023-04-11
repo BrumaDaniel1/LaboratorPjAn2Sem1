@@ -15,7 +15,8 @@ export class InventoryComponent implements OnInit {
     'Maia',
     'Auras','Auras','Mada','Auras'
   ];
- 
+  
+  
   itemsList!: Item[];
   error?: string;
   constructor(public dialog: MatDialog,  public itemService: ItemService) { }
